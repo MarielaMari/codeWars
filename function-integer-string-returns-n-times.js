@@ -1,7 +1,6 @@
-
-function repeatStr () {
-  const n = 10;
-  console.log(string.repeat(n));
+const n = 10;
+function repeatStr (s, n) {
+  console.log(s.repeat(n));
 }
 
 repeatStr();
